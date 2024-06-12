@@ -43,10 +43,10 @@ def dice_coefficient(dat1, dat2):
 def main():
     # ensure we recieve 2 file names as arguments
     parser = argparse.ArgumentParser(
-        description="Returns Dice Similarity Coefficient (DSC) between two segmentations.")
+        description="Returns Dice Similarity Coefficient (DSC) between two (2) segmentations.")
     parser.add_argument("filename", 
                         nargs = 2,
-                        help = "File names of the 2 volumes you hope to calculate the Dice Coefficient for, separated by a space.") 
+                        help = "File names of the two (2) volumes you hope to calculate the Dice Coefficient for, separated by a space.") 
     
     # features for later?
     """parser.add_argument("--save",
