@@ -28,7 +28,7 @@ def get_data(args):
         print("Unable to read one or more file. Ensure file types are in NIfTI-1 or NIfTI-2 format and try again.")
         sys.exit(1)
     except: 
-        print("Something went wrong reading your files. Please check their file types and try again.")
+        print("Something went wrong reading your files. Make sure the file exists, re-check file types, and try again.")
         sys.exit(2)
 
 # dice_coefficient(dat1, dat2)
