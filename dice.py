@@ -26,9 +26,10 @@ def get_data(args):
         return img1_data, img2_data
     except nib.filebasedimages.ImageFileError:
         print("Unable to read one or more file. Ensure file types are in NIfTI-1 or NIfTI-2 format and try again.")
+        sys.exit(1)
     except: 
         print("Something went wrong reading your files. Please check their file types and try again.")
-
+        sys.exit(2)
 
 # dice_coefficient(dat1, dat2)
 # calculates dice coefficient between two binary masked nifti files
