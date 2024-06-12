@@ -46,7 +46,7 @@ def main():
         description="Returns Dice Similarity Coefficient (DSC) between two (2) segmentations.")
     parser.add_argument("filename", 
                         nargs = 2,
-                        help = "File names of the two (2) volumes you hope to calculate the Dice Coefficient for, separated by a space.") 
+                        help = "File names of the two (2) .nii binary masks you hope to calculate the Dice Coefficient for, separated by a space.") 
     
     # features for later?
     """parser.add_argument("--save",
