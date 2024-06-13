@@ -1,0 +1,7 @@
+importlib-resources==6.1.1
+nibabel==5.2.1
+numpy==1.26.4
+packaging==23.2
+pip==24.0
+setuptools==69.5.1
+wheel==0.43.0
