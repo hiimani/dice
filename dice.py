@@ -1,7 +1,6 @@
-import os, sys, argparse
+import sys, argparse
 import numpy as np
 import nibabel as nib
-import matplotlib.pyplot as plt
 
 # def binary_mask(dat): return np.where(dat!= 0, 1, 0) # ifelse
 # returns nifti data as binary mask; unnecessary for us bc we will recieve masks for the LC region
